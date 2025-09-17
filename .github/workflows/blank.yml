@@ -23,8 +23,8 @@ jobs:
               with:
                   target_repo_token: ${{ secrets.GITHUB_TOKEN }}
                   upstream_sync_repo: P3TERX/GeoLite.mmdb
-                  upstream_sync_branch: download
-                  target_sync_branch: download
+                  upstream_sync_branch: main
+                  target_sync_branch: main
                   test_mode: false
 
             - name: Check for Failure
